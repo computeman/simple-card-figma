@@ -1,0 +1,155 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #2d2e36;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 356px;
+  height: 616px;
+  top: 140px;
+  left: 30px;
+  border-radius: 8px;
+  background: #383a45;
+  display: grid;
+  place-items: center;
+  margin: 16px;
+  padding: 16px;
+}
+
+.photo {
+  width: 304px;
+  height: 290px;
+  top: 165px;
+  left: 55px;
+  border-radius: 8px;
+}
+
+h1 {
+  width: 366px;
+  height: 57px;
+  top: 481px;
+  left: 55px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+p {
+  width: 296px;
+  height: 112px;
+  top: 581px;
+  left: 55px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8d91a6;
+}
+
+.link {
+  width: 20px;
+  height: 22px;
+  top: 704px;
+  left: 55px;
+  padding: 1.38px, 0px, 1.38px, 0px;
+}
+
+@media only screen and (min-width: 550px) {
+  .container {
+    width: 729px;
+    height: 310px;
+    top: 317px;
+    left: 393px;
+    border-radius: 8px;
+    display: flex;
+    background: #383a45;
+    margin: 16px;
+    padding: 16px;
+  }
+  .photo {
+    width: 262px;
+    height: 250px;
+    top: 347px;
+    left: 420px;
+    border-radius: 8px;
+  }
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #2d2e36;
+  font-family: "Poppins";
+}
+
+img {
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: #383a45;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  max-width: 270px;
+}
+
+p.title {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 119.7%;
+}
+
+p.description {
+  color: #8d91a6;
+  font-size: 0.8rem;
+}
+
+.link {
+  width: 0.8rem;
+}
+
+@media only screen and (min-width: 550px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .photo {
+    width: 9rem;
+    margin-right: 1rem;
+  }
+
+  a {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  html {
+    font-size: 18px;
+  }
+}
